@@ -9,7 +9,11 @@ if(isset($_POST['nombre1'])&&isset($_POST['nombre2'])) {
         $nombre3 = $nombre1 + $nombre2;
         echo $nombre1 . " + " . $nombre2 . " = " . $nombre3;
     }
-
+    if($function =='-')
+    {
+        $nombre3 = $nombre1 - $nombre2;
+        echo $nombre1 ." - ".$nombre2." = ".$nombre3;
+    }
 }
 
 
